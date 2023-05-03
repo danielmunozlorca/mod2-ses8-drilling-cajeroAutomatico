@@ -36,7 +36,7 @@ while (opcionSeleccionada !== "4") {
         alert(`Su saldo actual es de: $ ${usuarioValido.saldo}`);
         break;
       case "2":
-        // Realizar la operación de depositar
+        // Realizar la operación de girar
         const giro = parseInt(prompt(`Su saldo actual es $${usuarioValido.saldo} \n Ingrese el monto que desea girar: `));
         if (giro > usuarioValido.saldo) {          
           alert("El monto ingresado es mayor que el saldo actual. Por favor, ingrese un monto menor o igual.");
